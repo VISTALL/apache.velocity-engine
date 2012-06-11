@@ -35,6 +35,12 @@
 				<compilerarg value="-Xlint:all" />
 			</javac>
 
+			<copy todir="${build.classes}/@{dir}" failonerror="false">
+				<fileset dir="@{dir}/src/main/resources">
+					<include name="**/*.properties" />
+				</fileset>
+			</copy>
+
 			<jar destfile="${build.dist}/@{name}/@{name}-${build.version}.jar">
 				<fileset dir="${build.classes}/@{dir}" />
 				<manifest>
