@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine.iml" filepath="$PROJECT_DIR$/velocity-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-commons-logging/velocity-engine-commons-logging.iml" filepath="$PROJECT_DIR$/velocity-engine-commons-logging/velocity-engine-commons-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-core/velocity-engine-core.iml" filepath="$PROJECT_DIR$/velocity-engine-core/velocity-engine-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-examples/velocity-engine-examples.iml" filepath="$PROJECT_DIR$/velocity-engine-examples/velocity-engine-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-log4j/velocity-engine-log4j.iml" filepath="$PROJECT_DIR$/velocity-engine-log4j/velocity-engine-log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-servlet/velocity-engine-servlet.iml" filepath="$PROJECT_DIR$/velocity-engine-servlet/velocity-engine-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocity-engine-slf4j/velocity-engine-slf4j.iml" filepath="$PROJECT_DIR$/velocity-engine-slf4j/velocity-engine-slf4j.iml" />
+    </modules>
+  </component>
+</project>
+

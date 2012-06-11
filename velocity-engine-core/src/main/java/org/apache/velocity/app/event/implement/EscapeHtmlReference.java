@@ -1,6 +1,6 @@
 package org.apache.velocity.app.event.implement;
 
-import org.apache.commons.lang.StringEscapeUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -39,7 +39,7 @@ public class EscapeHtmlReference extends EscapeReference
      */
     protected String escape(Object text)
     {
-        return StringEscapeUtils.escapeHtml(text.toString());
+        return StringEscapeUtils.escapeHtml4(text.toString());
     }
 
     /**

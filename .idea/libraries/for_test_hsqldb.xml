@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="for.test-hsqldb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/velocity-engine-core/lib/test/hsqldb-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

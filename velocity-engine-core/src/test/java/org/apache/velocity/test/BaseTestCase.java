@@ -23,7 +23,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 
-import junit.framework.TestCase;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 import org.apache.velocity.app.VelocityEngine;
@@ -32,6 +31,7 @@ import org.apache.velocity.runtime.resource.loader.StringResourceLoader;
 import org.apache.velocity.runtime.resource.util.StringResourceRepository;
 import org.apache.velocity.test.misc.TestLogChute;
 import org.apache.velocity.util.StringUtils;
+import junit.framework.TestCase;
 
 /**
  * Base test case that provides utility methods for
@@ -358,7 +358,7 @@ public abstract class BaseTestCase extends TestCase implements TemplateTestBase
                 buf.append(baseFile.getPath());
             }
 
-            if (org.apache.commons.lang.StringUtils.isNotEmpty(ext))
+            if (org.apache.commons.lang3.StringUtils.isNotEmpty(ext))
             {
                 buf.append('.').append(ext);
             }

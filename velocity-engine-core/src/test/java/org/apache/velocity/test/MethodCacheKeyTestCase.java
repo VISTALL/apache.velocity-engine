@@ -19,10 +19,9 @@ package org.apache.velocity.test;
  * under the License.    
  */
 
-import junit.framework.TestCase;
-
-import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.velocity.runtime.parser.node.ASTMethod;
+import junit.framework.TestCase;
 
 /**
  * Checks that the equals method works correctly when caching method keys.

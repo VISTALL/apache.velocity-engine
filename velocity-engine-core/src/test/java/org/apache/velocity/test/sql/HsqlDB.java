@@ -19,15 +19,14 @@ package org.apache.velocity.test.sql;
  * under the License.
  */
 
-import org.apache.commons.lang.StringUtils;
-import org.hsqldb.jdbcDriver;
-
 import java.io.FileReader;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import org.apache.commons.lang3.StringUtils;
+import org.hsqldb.jdbcDriver;
 
 
 public class HsqlDB {
