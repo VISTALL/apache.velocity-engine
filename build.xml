@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="velocity" default="dist" basedir=".">
-	<property name="build.version" value="1.7" />
+	<property name="build.version" value="2.0dev" />
 
 	<property name="dist" location="dist" />
 	<property name="lib" location="lib" />
