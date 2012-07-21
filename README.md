@@ -1,5 +1,5 @@
 ---------------
-Apache Velocity
+Apache Velocity  [![Build Status](https://secure.travis-ci.org/napile/apache.velocity-engine.png?branch=master)](http://travis-ci.org/napile/apache.velocity-engine)
 ---------------
 
 Welcome to Apache Velocity! Apache Velocity is a general purpose
